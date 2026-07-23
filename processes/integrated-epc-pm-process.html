@@ -1,95 +1,103 @@
 <meta charset="utf-8">
 <title>CVR/HWC Integrated Capital Delivery Process</title>
-<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   /* ============================================================
-     BRAND VARIABLES — structure/type verified from uscco.com
-     page source. Exact hex values live in the site's styles.css
-     (not yet available) — swap these when confirmed.
+     USC BRAND — values extracted from uscco.com assets/css/styles.css
+       dark red  #d0171f   light red #e51b24   nav red #cd1b23
+       charcoal  #393939   ink #231f20         light grey #f2f2f2
+       diagonal brand gradient: 371deg #d0171f 0-48%, #e51b24 48-100%
+       fonts: Muli/Mulish (body), Fjalla One (display)
      ============================================================ */
   :root{
-    --brand-primary:   #1D1D1D;  /* near-black — header/hero, per dark-overlay site design */
-    --brand-accent:    #E87722;  /* accent — swap for exact USC accent from styles.css */
-    --brand-secondary: #55606B;  /* neutral steel — sub-elements */
-    --brand-light:     #F1F2F3;  /* pale panel background        */
-    --brand-ink:       #222528;  /* body text                    */
-    --brand-rule:      #CDD2D7;  /* table borders                */
-    --ok:              #2E7D4F;
-    --display-font:    "Fjalla One", "Arial Narrow", Arial, sans-serif; /* confirmed: site display font */
+    --usc-red:       #d0171f;
+    --usc-red-light: #e51b24;
+    --usc-charcoal:  #393939;
+    --usc-ink:       #231f20;
+    --usc-grey:      #f2f2f2;
+    --usc-rule:      #d9d9d9;
+    --display-font:  "Fjalla One", "Arial Narrow", Arial, sans-serif;
+    --body-font:     "Mulish", "Muli", "Segoe UI", Arial, sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:"Segoe UI",Arial,Helvetica,sans-serif;color:var(--brand-ink);
+  body{font-family:var(--body-font);color:var(--usc-ink);
        background:#fff;line-height:1.55;font-size:15px}
   .page{max-width:980px;margin:0 auto;padding:0 34px 60px}
 
-  /* ---------- masthead ---------- */
-  .masthead{background:var(--brand-primary);color:#fff;padding:30px 34px 26px;
-            border-bottom:6px solid var(--brand-accent)}
+  /* ---------- masthead: white like site header, shadow, red brand band ---------- */
+  .masthead{background:#fff;padding:26px 34px 22px;box-shadow:0 0 8px rgba(0,0,0,.4);
+            position:relative}
   .masthead .inner{max-width:980px;margin:0 auto;display:flex;
                    justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
   .wordmark{display:flex;align-items:center;gap:14px}
-  .logobox{width:64px;height:64px;border:3px solid var(--brand-accent);border-radius:8px;
-           display:flex;align-items:center;justify-content:center;font-weight:800;
-           font-size:20px;letter-spacing:1px;background:rgba(255,255,255,.08)}
-  .wordmark .names{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.9}
+  .logobox{width:64px;height:64px;background:var(--usc-red);border-radius:4px;
+           display:flex;align-items:center;justify-content:center;font-weight:400;
+           font-family:var(--display-font);font-size:22px;letter-spacing:1px;color:#fff}
   .wordmark .co{font-family:var(--display-font);font-size:22px;font-weight:400;
-                letter-spacing:.04em;text-transform:uppercase}
-  .tagline{font-family:var(--display-font);color:var(--brand-accent);font-size:13px;
+                letter-spacing:.04em;text-transform:uppercase;color:var(--usc-ink)}
+  .tagline{font-family:var(--display-font);color:var(--usc-red);font-size:13px;
            letter-spacing:.18em;text-transform:uppercase;margin-top:3px}
-  .doc-id{text-align:right;font-size:12.5px;opacity:.85;line-height:1.7}
+  .wordmark .names{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+                   color:var(--usc-charcoal);opacity:.75;margin-top:2px}
+  .doc-id{text-align:right;font-size:12.5px;color:var(--usc-charcoal);line-height:1.7}
+  /* signature USC diagonal red gradient band */
+  .brandband{height:9px;background:linear-gradient(371deg,#d0171f 0%,#d0171f 48%,#e51b24 48%,#e51b24 100%)}
+
   .titleband{max-width:980px;margin:0 auto;padding:30px 0 6px}
   h1{font-family:var(--display-font);font-weight:400;text-transform:uppercase;
-     font-size:31px;color:var(--brand-primary);line-height:1.15;margin-bottom:6px;
+     font-size:31px;color:var(--usc-ink);line-height:1.15;margin-bottom:6px;
      letter-spacing:.03em}
-  .subtitle{font-size:16px;color:var(--brand-secondary);margin-bottom:18px}
+  .subtitle{font-size:16px;color:var(--usc-charcoal);margin-bottom:18px}
   .meta{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0 8px}
-  .chip{background:var(--brand-light);border-left:4px solid var(--brand-accent);
+  .chip{background:var(--usc-grey);border-left:4px solid var(--usc-red);
         padding:8px 14px;border-radius:0 6px 6px 0;font-size:13px}
-  .chip b{color:var(--brand-primary)}
+  .chip b{color:var(--usc-red)}
 
-  /* ---------- sections ---------- */
-  h2{font-family:var(--display-font);font-weight:400;color:#fff;background:var(--brand-primary);
+  /* ---------- sections: charcoal bands with red edge (site footer/nav language) ---------- */
+  h2{font-family:var(--display-font);font-weight:400;color:#fff;background:var(--usc-charcoal);
      font-size:17px;letter-spacing:.08em;text-transform:uppercase;padding:9px 16px;
-     margin:38px 0 16px;border-radius:4px;border-left:6px solid var(--brand-accent)}
+     margin:38px 0 16px;border-radius:4px;border-left:6px solid var(--usc-red)}
   h3{font-family:var(--display-font);font-weight:400;text-transform:uppercase;
-     letter-spacing:.05em;color:var(--brand-primary);font-size:15.5px;margin:22px 0 8px}
+     letter-spacing:.05em;color:var(--usc-charcoal);font-size:15.5px;margin:22px 0 8px}
   p{margin:0 0 12px}
   ul,ol{margin:0 0 14px 24px}
   li{margin-bottom:5px}
 
-  .callout{background:var(--brand-light);border:1px solid var(--brand-rule);
-           border-left:6px solid var(--brand-accent);padding:16px 18px;border-radius:0 8px 8px 0;
+  .callout{background:var(--usc-grey);border:1px solid var(--usc-rule);
+           border-left:6px solid var(--usc-red);padding:16px 18px;border-radius:0 8px 8px 0;
            margin:18px 0}
-  .callout b{color:var(--brand-primary)}
+  .callout b{color:var(--usc-red)}
 
   /* ---------- tables ---------- */
   .twrap{overflow-x:auto;margin:14px 0 20px}
   table{border-collapse:collapse;width:100%;font-size:13.5px}
-  th{background:var(--brand-primary);color:#fff;text-align:left;padding:9px 12px;
+  th{background:var(--usc-charcoal);color:#fff;text-align:left;padding:9px 12px;
      font-weight:600;letter-spacing:.02em}
-  td{padding:8px 12px;border-bottom:1px solid var(--brand-rule);vertical-align:top}
-  tbody tr:nth-child(even){background:var(--brand-light)}
+  td{padding:8px 12px;border-bottom:1px solid var(--usc-rule);vertical-align:top}
+  tbody tr:nth-child(even){background:var(--usc-grey)}
   .raci td:not(:first-child),.raci th:not(:first-child){text-align:center}
-  .r{color:var(--brand-primary);font-weight:700}
-  .a{background:var(--brand-accent);color:#fff;font-weight:700;border-radius:4px;
+  .r{color:var(--usc-ink);font-weight:700}
+  .a{background:var(--usc-red);color:#fff;font-weight:700;border-radius:4px;
      padding:2px 7px;display:inline-block}
-  .c{color:var(--brand-secondary)}
-  .i{color:#8a97a3}
-  .legend{font-size:12.5px;color:var(--brand-secondary);margin:-8px 0 18px}
+  .c{color:var(--usc-charcoal)}
+  .i{color:#9a9a9a}
+  .legend{font-size:12.5px;color:var(--usc-charcoal);margin:-8px 0 18px}
 
   /* ---------- flow ---------- */
   .flow{display:flex;flex-direction:column;gap:0;margin:18px 0 22px}
-  .fstep{background:#fff;border:2px solid var(--brand-primary);border-radius:8px;
+  .fstep{background:#fff;border:2px solid var(--usc-charcoal);border-radius:8px;
          padding:13px 18px}
-  .fstep b{color:var(--brand-primary)}
-  .fstep small{display:block;color:var(--brand-secondary);margin-top:2px}
-  .farrow{align-self:center;color:var(--brand-accent);font-size:20px;line-height:1.4;font-weight:700}
+  .fstep b{color:var(--usc-red)}
+  .fstep small{display:block;color:var(--usc-charcoal);margin-top:2px}
+  .farrow{align-self:center;color:var(--usc-red);font-size:20px;line-height:1.4;font-weight:700}
 
-  .footer{margin-top:46px;border-top:3px solid var(--brand-primary);padding-top:12px;
-          font-size:12px;color:var(--brand-secondary);display:flex;justify-content:space-between;
-          flex-wrap:wrap;gap:8px}
-  @media print{ h2{-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    .masthead{-webkit-print-color-adjust:exact;print-color-adjust:exact} }
+  /* ---------- footer: charcoal like site footer ---------- */
+  .footer{margin:46px -34px 0;background:var(--usc-charcoal);color:#fff;
+          padding:22px 34px;font-size:12px;display:flex;justify-content:space-between;
+          flex-wrap:wrap;gap:8px;border-top:6px solid var(--usc-red)}
+  .footer b{font-family:var(--display-font);font-weight:400;letter-spacing:.06em;
+            text-transform:uppercase;font-size:13px}
+  @media print{ h2,.masthead,.footer,.brandband,.a,th{-webkit-print-color-adjust:exact;print-color-adjust:exact} }
 </style>
 
 <div class="masthead"><div class="inner">
@@ -107,6 +115,7 @@
     Owner: CVR Engineering
   </div>
 </div></div>
+<div class="brandband"></div>
 
 <div class="titleband page">
   <h1>Integrated Capital Delivery Process</h1>
