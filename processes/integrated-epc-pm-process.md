@@ -43,7 +43,7 @@ A **CVR-led process**, working closely with **HWC Construction/Operations PMs**,
 2. **Leads procurement through PLS (Power Line Supply)** — equipment procurement is led by the **Lead Engineer, who is the Engineer of Record (EOR) for the project**, ensuring accurate part numbers, quantities, and technical requirements before anything is ordered.
 3. **Runs projects with a dedicated CVR Project Manager** — a **PMP and/or PE, separate from the engineering lead** — operating in a **"Capital Delivery" mindset**: solid financial performance, on-time purchasing/ordering of equipment for the most efficient delivery possible, and professional tracking using P6 resource-loaded schedules.
 
-> **Critical relationship:** the interaction between the **CVR PM and the HWC Construction PM** is the backbone of this process. The CVR PM owns capital delivery (cost, schedule, procurement, reporting); the HWC Construction PM owns field execution (crews, production, constructability). Neither succeeds without the other — this pairing meets weekly, shares one schedule and one cost picture, and jointly owns the project outcome.
+> **Critical relationship:** the interaction between the **CVR PM and the HWC Construction PM** is the backbone of this process. The CVR PM owns capital delivery (cost, schedule, procurement, reporting); the HWC Construction PM owns field execution (crews, production, constructability) — and is **engaged from design kickoff, not mobilization**: constructability and field-operations input shapes the design and the estimate, not just the build. Neither succeeds without the other — this pairing meets weekly, shares one schedule and one cost picture, and jointly owns the project outcome.
 
 ## Governance
 
@@ -60,14 +60,14 @@ A **CVR-led process**, working closely with **HWC Construction/Operations PMs**,
   - [ ] Define transition plan: reporting change date, systems access, template/cost-code standardization
 - **Lead Engineer = Engineer of Record (EOR)** for the project. Owns design integrity and technical procurement content.
 - **CVR PM** = dedicated **PMP/PE**, separate person from the EOR. Owns capital delivery.
-- **HWC Construction PM** = field execution owner and constructability voice from estimate through closeout.
+- **HWC Construction PM** = field execution owner and constructability voice, involved **from design kickoff through closeout** — reviewing design for constructability and field operations before it hardens into an estimate.
 - **CVR PM support team** provides P6 scheduling, cost tracking, and reporting horsepower behind the CVR PM.
 
 ## Process Flow (target state)
 
 ```
-Design (CVR Engineering — EOR)
-   │  quantity takeoffs, technical specs
+Design (CVR Engineering — EOR + HWC Constr/Ops constructability input)
+   │  quantity takeoffs, technical specs, field-ops review from day one
    ▼
 Estimate (CVR Estimating + HWC Construction PM constructability review)
    │  shared cost code structure
