@@ -1,8 +1,39 @@
 # Integrated Engineering / Estimating / Procurement / PM Process — CVR & HWC
 
-**Status:** Operating model defined — ready for leadership review and pilot
+**Status:** Executive summary — for CEO/COO approval
 **Process owner:** CVR
 **Applicability:** **Mandatory for all projects $500k and above**, unless otherwise approved by the SVP Engineering or the COO.
+
+## Executive Summary
+
+CVR proposes one integrated process for how CVR and HWC take capital projects from design through construction closeout — engineering, estimating, procurement, and project management operating on a single cost and schedule backbone, run with the same **Capital Delivery** discipline our investor-owned utility clients apply to their own capital programs.
+
+Today those functions sit in different organizations with manual handoffs between them. The cost of those seams is real: estimates built without design quantities, purchase orders placed without engineering verification, GP surprises discovered after the money is spent, and schedules that don't drive procurement. As our IOU clients (DTE and others) move toward open-book commercial arrangements, they are effectively auditing our project controls — predictable delivery is becoming a condition of winning the work.
+
+**Decisions requested of the CEO/COO:**
+
+1. **Adopt the integrated process** as mandatory for all projects ≥ $500k, with exceptions approved by the SVP Engineering or COO.
+2. **Transition the estimating team from HWC into CVR**, reporting to the SVP of Engineering.
+3. **Stand up the dedicated CVR project management team** — PMP/PE-credentialed PMs, separate from the engineering leads, operating in the Capital Delivery model with P6.
+4. **Endorse the engineer-verified CVR → PLS transmittal system** as the single channel for material procurement.
+5. **Pilot on the New Baltimore program** ahead of the spring 2027 construction start, then roll out across CVR/HWC.
+
+## Key Definitions
+
+| Term | Meaning in this document |
+|------|--------------------------|
+| **Capital Delivery** | An operating mindset borrowed from how investor-owned utilities run their capital programs: every project managed as a **financial investment, not just a construction job** — baselined budget/schedule, committed-dollar visibility, monthly forecast-at-completion, gated leadership decisions. For CVR/HWC: managing GP the way an IOU's capital program office manages rate-base spend — proactively, with standing reports instead of after-the-fact reconciliation. |
+| **IOU** | Investor-Owned Utility — shareholder-owned, commission-regulated (e.g., DTE). Their capital program performance flows into rate cases, which is why they expect open-book transparency and professional project controls from partners. |
+| **EOR** | Engineer of Record — the licensed engineer responsible for the project design; in this process, also the technical authority for all procurement content. |
+| **GP** | Gross Profit — revenue minus direct project costs. The primary financial measure at project and work-order level. |
+| **Committed cost** | Dollars obligated by PO/subcontract whether or not invoiced. Tracking commitments is what makes early GP forecasting possible. |
+| **Open book** | Commercial arrangement sharing the full cost buildup (directs, OH, markup/fee, contingency) with the client. |
+| **P6** | Oracle Primavera P6 — industry-standard scheduling platform; logic-driven CPM schedules carrying resources and costs. |
+| **Resource / cost loading** | Assigning crews, staff, and dollars to schedule activities so the schedule forecasts manpower, cash flow, and material need dates. |
+| **Transmittal** | Numbered, revision-controlled release of engineer-verified material requirements from CVR to PLS — the auditable record of what was ordered and on whose authority. |
+| **Need date / lead time** | Date material must be on site (from P6) and supplier time from PO to delivery. PO deadline = need date − lead time. |
+| **WBS / cost codes** | Common breakdown structure shared by estimating, procurement, scheduling, accounting — so estimate, POs, schedule, and actuals reconcile automatically. |
+| **RACI** | Responsible / Accountable / Consulted / Informed — exactly one Accountable owner per activity. |
 
 ## Big Picture
 
