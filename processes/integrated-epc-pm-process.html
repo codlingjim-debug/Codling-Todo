@@ -216,7 +216,45 @@
 <p><b>Change control:</b> any change to part number, quantity, spec, or need date requires a revised transmittal (new revision letter) with the same dual signature — a clean audit trail of what was ordered, when, and on whose authority.</p>
 <p><b>Platform:</b> standardized transmittal form + status register in SharePoint/Teams (Issued → Acknowledged → PO Placed → Delivered); graduate to a procurement module if volume justifies. The discipline matters more than the tool.</p>
 
-<h2>8 &nbsp;Meeting Cadence</h2>
+<h2>8 &nbsp;Systems Roadmap</h2>
+<p><b>Current state:</b> the process today runs on email and network drives. That cannot support committed-cost visibility, schedule-driven procurement, or auditable transmittals at portfolio scale — but the system decision must not stall the process launch. The recommendation: <b>process first, platform second</b> — start on tools we already own, run a structured two-vendor evaluation in parallel, and let the New Baltimore pilot generate the real requirements list.</p>
+
+<h3>Phased Approach</h3>
+<div class="twrap"><table>
+  <tr><th style="width:12%">Phase</th><th style="width:22%">What</th><th style="width:18%">Timing</th><th style="width:20%">ROM Cost*</th><th>Purpose</th></tr>
+  <tr><td><b>Crawl</b></td><td>SharePoint/Teams: transmittal form + register, WO cost workbook, standard templates</td><td>Now — 60 days</td><td>$0 software (existing M365); ~$10–15k internal effort</td><td>Prove the discipline immediately; generate the requirements list for the platform evaluation</td></tr>
+  <tr><td><b>Walk</b></td><td>Platform pilot on New Baltimore (Unifier vs. InEight evaluation below) + estimating tool selection</td><td>Q4 2026 – Q2 2027</td><td>$75–150k first year (pilot licenses + partner support)</td><td>Stress-test against the 39-WO cost reconciliation before spring 2027 construction</td></tr>
+  <tr><td><b>Run</b></td><td>Full rollout: platform + P6 + estimating tool integrated; ERP/accounting feed for actuals</td><td>2027–2028</td><td>$150–400k/yr run-rate depending on platform and seats</td><td>Estimate → PO → schedule → actuals on one backbone, GP forecast as a standing report</td></tr>
+</table></div>
+
+<h3>Platform Options</h3>
+<div class="twrap"><table>
+  <tr><th style="width:16%">Option</th><th style="width:26%">Role in this process</th><th style="width:13%">P6 integration</th><th style="width:22%">ROM cost*</th><th>Fit assessment</th></tr>
+  <tr><td><b>Oracle Primavera Unifier</b></td><td>Capital program cost management: cost sheets tied to P6 WBS/CBS, cash flow, change management, configurable workflows (incl. the CVR-PLS transmittal)</td><td><b>Native, bi-directional</b></td><td>$75–250k/yr subscription + $100–300k implementation (4–9 mo, partner-led)</td><td><b>Strongest match to the Capital Delivery model</b>; the same class of tooling our IOU clients run. Heaviest lift.</td></tr>
+  <tr><td><b>InEight</b></td><td>Contractor-side suite; estimating-rooted; estimate → cost codes → project controls</td><td>Yes (connector)</td><td>$50–150k/yr + $50–150k implementation (3–6 mo)</td><td><b>The lighter-lift challenger</b> — matches our estimating-led flow; evaluate head-to-head with Unifier.</td></tr>
+  <tr><td><b>Oracle Aconex</b></td><td>Controlled document transmittals &amp; correspondence — heavyweight option for the CVR-PLS transmittal register and engineering doc control</td><td>Via Oracle ecosystem</td><td>$30–100k/yr (project-based pricing)</td><td>Add-on consideration if transmittal volume outgrows SharePoint; not a standalone answer.</td></tr>
+  <tr><td><b>Procore</b></td><td>Field/construction PM, daily logs, RFIs; friendliest UX for HWC field teams</td><td>Connector (3rd-party)</td><td>$40–120k/yr (priced on construction volume); light implementation ($10–30k)</td><td>Strong at the HWC field end, shallow on capital-program cost controls. Possible complement, not the backbone.</td></tr>
+  <tr><td><b>Trimble e-Builder / Kahua</b></td><td>Owner-side capital program platforms</td><td>Varies</td><td>$75k+/yr</td><td>Built for owners like DTE, not contractor operations — not recommended for CVR's backbone.</td></tr>
+</table></div>
+
+<h3>Estimating Tools (evaluation already underway)</h3>
+<div class="twrap"><table>
+  <tr><th style="width:18%">Tool</th><th style="width:34%">Strength</th><th style="width:22%">ROM cost*</th><th>Process fit</th></tr>
+  <tr><td><b>HCSS HeavyBid</b></td><td>Utility / heavy-civil estimating standard; crew-based production estimating</td><td>$15–35k first year (small estimating team), ~$10–20k/yr after</td><td>Exports structured estimates to seed P6 cost loading and the shared WBS</td></tr>
+  <tr><td><b>InEight Estimate</b></td><td>Deep integration with the InEight controls suite</td><td>$20–50k/yr (team of 3–5)</td><td>Strongest if InEight wins the platform evaluation — one vendor, one data model</td></tr>
+  <tr><td><b>Excel (status quo)</b></td><td>Familiar; zero cost</td><td>$0</td><td>No structured export, no version control, no shared WBS — the source of today's reconciliation pain</td></tr>
+</table></div>
+
+<p class="legend">*ROM = rough order of magnitude, planning-level only — actual pricing varies with seat counts, modules, and construction volume, and several vendors price by quote only. Budgetary quotes from Oracle and InEight are a named deliverable of the Walk phase; no software commitment is requested in this document beyond the pilot evaluation.</p>
+
+<h3>Decision Path</h3>
+<ol>
+  <li>Launch the Crawl phase on approval of this document (no new spend).</li>
+  <li>Fold the estimating tool evaluation already underway into the platform evaluation, so the estimate data model and the cost-controls data model are chosen together.</li>
+  <li>Bring budgetary quotes and the Unifier-vs-InEight recommendation to the quarterly Portfolio / Governance Review for a platform decision.</li>
+</ol>
+
+<h2>9 &nbsp;Meeting Cadence</h2>
 <div class="twrap"><table>
   <tr><th>Meeting</th><th>Frequency</th><th>Required Attendees</th><th>Purpose</th></tr>
   <tr><td><b>Project Kickoff / Process Gate</b></td><td>Once, at award</td><td>CVR PM, EOR, Estimating lead, HWC Construction PM, PLS rep (SVP Eng/COO if exception sought)</td><td>Confirm process applicability (≥$500k), baseline scope/budget/schedule, assign RACI names</td></tr>
@@ -228,7 +266,7 @@
 </table></div>
 <p class="legend">The weekly CVR PM ↔ HWC Construction PM sync is the anchor — everything else flexes around it. The monthly cost review uses the P6 update from the same week so cost and schedule tell one story.</p>
 
-<h2>9 &nbsp;RACI Matrix</h2>
+<h2>10 &nbsp;RACI Matrix</h2>
 <p class="legend"><span class="a">A</span>&nbsp;Accountable&emsp;<span class="r">R</span>&nbsp;Responsible&emsp;<span class="c">C</span>&nbsp;Consulted&emsp;<span class="i">I</span>&nbsp;Informed&emsp;|&emsp;EOR = Lead Engineer (CVR) · EST = CVR Estimating · PMS = CVR PM Support</p>
 <div class="twrap"><table class="raci">
   <tr><th style="text-align:left">Activity</th><th>EOR</th><th>CVR PM</th><th>EST</th><th>HWC PM</th><th>PLS</th><th>PMS</th><th>SVP</th><th>COO</th></tr>
@@ -259,7 +297,7 @@
   <li><b>SVP / COO are Accountable only at the gates</b>, keeping leadership out of the day-to-day critical path.</li>
 </ul>
 
-<h2>10 &nbsp;Success Criteria</h2>
+<h2>11 &nbsp;Success Criteria</h2>
 <ul>
   <li>Any work order's estimated vs. committed vs. actual cost is answerable without a manual reconciliation exercise.</li>
   <li>Material need dates in the P6 schedule drive PO placement dates automatically.</li>

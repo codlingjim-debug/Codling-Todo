@@ -105,6 +105,43 @@ A controlled, numbered transmittal is the only way material requirements move fr
 - [ ] Agree SLA and acknowledgment format with PLS
 - [ ] Define PLS's promise-date feedback loop into the P6 schedule
 
+## Systems Roadmap
+
+**Current state:** email and network drives — cannot support committed-cost visibility, schedule-driven procurement, or auditable transmittals. Principle: **process first, platform second** — the system decision must not stall the process launch.
+
+### Phased Approach
+
+| Phase | What | Timing | ROM Cost* | Purpose |
+|-------|------|--------|-----------|---------|
+| **Crawl** | SharePoint/Teams transmittal form + register, WO cost workbook, templates | Now – 60 days | $0 software; ~$10–15k internal effort | Prove the discipline; generate platform requirements |
+| **Walk** | Platform pilot on New Baltimore (Unifier vs. InEight) + estimating tool selection | Q4 2026 – Q2 2027 | $75–150k first year | Stress-test against the 39-WO reconciliation before spring 2027 |
+| **Run** | Full rollout: platform + P6 + estimating tool + ERP feed for actuals | 2027–2028 | $150–400k/yr run-rate | One backbone, GP forecast as a standing report |
+
+### Platform Options
+
+| Option | Role | P6 integration | ROM cost* | Fit |
+|--------|------|----------------|-----------|-----|
+| **Oracle Primavera Unifier** | Capital program cost management tied to P6 WBS/CBS; cash flow; change mgmt; configurable workflows (incl. transmittals) | **Native, bi-directional** | $75–250k/yr + $100–300k implementation (4–9 mo) | Strongest match to Capital Delivery; same tooling class as IOU clients. Heaviest lift. |
+| **InEight** | Contractor suite, estimating-rooted; estimate → cost codes → controls | Connector | $50–150k/yr + $50–150k implementation (3–6 mo) | Lighter-lift challenger; evaluate head-to-head with Unifier |
+| **Oracle Aconex** | Controlled transmittals & doc control | Oracle ecosystem | $30–100k/yr | Add-on if transmittal volume outgrows SharePoint |
+| **Procore** | Field/construction PM; best UX for HWC field | 3rd-party connector | $40–120k/yr; light implementation | Strong at field end, shallow cost controls — complement, not backbone |
+| **e-Builder / Kahua** | Owner-side capital program platforms | Varies | $75k+/yr | Built for owners like DTE — not recommended for CVR backbone |
+
+### Estimating Tools (evaluation underway)
+
+| Tool | Strength | ROM cost* | Fit |
+|------|----------|-----------|-----|
+| **HCSS HeavyBid** | Utility/heavy-civil standard; crew-based production estimating | $15–35k first year; ~$10–20k/yr after | Structured export seeds P6 cost loading + shared WBS |
+| **InEight Estimate** | Deep integration with InEight suite | $20–50k/yr (3–5 seats) | Strongest if InEight wins platform evaluation |
+| **Excel (status quo)** | Familiar, free | $0 | No structured export/version control — today's reconciliation pain |
+
+\*ROM = rough order of magnitude, planning-level only; validate with vendor quotes. Budgetary quotes from Oracle and InEight are a Walk-phase deliverable — no software commitment requested beyond the pilot evaluation.
+
+### Decision Path
+1. Launch Crawl on approval of this document (no new spend).
+2. Fold the current estimating tool evaluation into the platform evaluation — choose the estimate data model and cost-controls data model together.
+3. Bring budgetary quotes and the Unifier-vs-InEight recommendation to the quarterly Portfolio/Governance Review for the platform decision.
+
 ## Meeting Cadence
 
 | Meeting | Frequency | Required attendees | Purpose |
