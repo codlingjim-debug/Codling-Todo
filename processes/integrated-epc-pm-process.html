@@ -1,17 +1,21 @@
 <meta charset="utf-8">
 <title>CVR/HWC Integrated Capital Delivery Process</title>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 <style>
   /* ============================================================
-     BRAND VARIABLES — swap these for exact USC / uscco.com values
+     BRAND VARIABLES — structure/type verified from uscco.com
+     page source. Exact hex values live in the site's styles.css
+     (not yet available) — swap these when confirmed.
      ============================================================ */
   :root{
-    --brand-primary:   #1B3A5C;  /* deep navy — headers, bands   */
-    --brand-accent:    #E87722;  /* utility orange — highlights  */
-    --brand-secondary: #4A6B8A;  /* steel blue — sub-elements    */
-    --brand-light:     #EEF2F6;  /* pale panel background        */
-    --brand-ink:       #22303C;  /* body text                    */
-    --brand-rule:      #C9D4DE;  /* table borders                */
+    --brand-primary:   #1D1D1D;  /* near-black — header/hero, per dark-overlay site design */
+    --brand-accent:    #E87722;  /* accent — swap for exact USC accent from styles.css */
+    --brand-secondary: #55606B;  /* neutral steel — sub-elements */
+    --brand-light:     #F1F2F3;  /* pale panel background        */
+    --brand-ink:       #222528;  /* body text                    */
+    --brand-rule:      #CDD2D7;  /* table borders                */
     --ok:              #2E7D4F;
+    --display-font:    "Fjalla One", "Arial Narrow", Arial, sans-serif; /* confirmed: site display font */
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:"Segoe UI",Arial,Helvetica,sans-serif;color:var(--brand-ink);
@@ -27,11 +31,16 @@
   .logobox{width:64px;height:64px;border:3px solid var(--brand-accent);border-radius:8px;
            display:flex;align-items:center;justify-content:center;font-weight:800;
            font-size:20px;letter-spacing:1px;background:rgba(255,255,255,.08)}
-  .wordmark .names{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.9}
-  .wordmark .co{font-size:21px;font-weight:700;letter-spacing:.02em}
+  .wordmark .names{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.9}
+  .wordmark .co{font-family:var(--display-font);font-size:22px;font-weight:400;
+                letter-spacing:.04em;text-transform:uppercase}
+  .tagline{font-family:var(--display-font);color:var(--brand-accent);font-size:13px;
+           letter-spacing:.18em;text-transform:uppercase;margin-top:3px}
   .doc-id{text-align:right;font-size:12.5px;opacity:.85;line-height:1.7}
   .titleband{max-width:980px;margin:0 auto;padding:30px 0 6px}
-  h1{font-size:29px;color:var(--brand-primary);line-height:1.2;margin-bottom:6px}
+  h1{font-family:var(--display-font);font-weight:400;text-transform:uppercase;
+     font-size:31px;color:var(--brand-primary);line-height:1.15;margin-bottom:6px;
+     letter-spacing:.03em}
   .subtitle{font-size:16px;color:var(--brand-secondary);margin-bottom:18px}
   .meta{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0 8px}
   .chip{background:var(--brand-light);border-left:4px solid var(--brand-accent);
@@ -39,10 +48,11 @@
   .chip b{color:var(--brand-primary)}
 
   /* ---------- sections ---------- */
-  h2{color:#fff;background:var(--brand-primary);font-size:16.5px;letter-spacing:.05em;
-     text-transform:uppercase;padding:9px 16px;margin:38px 0 16px;border-radius:4px;
-     border-left:6px solid var(--brand-accent)}
-  h3{color:var(--brand-primary);font-size:15.5px;margin:22px 0 8px}
+  h2{font-family:var(--display-font);font-weight:400;color:#fff;background:var(--brand-primary);
+     font-size:17px;letter-spacing:.08em;text-transform:uppercase;padding:9px 16px;
+     margin:38px 0 16px;border-radius:4px;border-left:6px solid var(--brand-accent)}
+  h3{font-family:var(--display-font);font-weight:400;text-transform:uppercase;
+     letter-spacing:.05em;color:var(--brand-primary);font-size:15.5px;margin:22px 0 8px}
   p{margin:0 0 12px}
   ul,ol{margin:0 0 14px 24px}
   li{margin-bottom:5px}
@@ -87,7 +97,8 @@
     <div class="logobox">USC</div>
     <div>
       <div class="co">Utility Supply &amp; Construction Company</div>
-      <div class="names">CVR Engineering &nbsp;·&nbsp; Hydaker-Wheatlake &nbsp;·&nbsp; Power Line Supply</div>
+      <div class="tagline">100% Utility&ensp;·&ensp;100% of the Time</div>
+      <div class="names">CVR &nbsp;·&nbsp; The Hydaker-Wheatlake Co. &nbsp;·&nbsp; Power Line Supply</div>
     </div>
   </div>
   <div class="doc-id">
@@ -224,7 +235,10 @@
 </ul>
 
 <div class="footer">
-  <div>Utility Supply &amp; Construction Company · CVR Engineering · Hydaker-Wheatlake · Power Line Supply</div>
+  <div>
+    <b>Utility Supply &amp; Construction Company</b> · 420 Roth Street, Suite A, Reed City, MI 49677 · (800) 832-2297<br>
+    The Hydaker-Wheatlake Co. · Power Line Supply · Crossroads Mobile Maintenance · Hydrolake Inc. · CVR
+  </div>
   <div>CVR-PROC-001 Rev 0 · July 23, 2026</div>
 </div>
 
