@@ -1,0 +1,33 @@
+# 04 — Master Schedule for PM Team
+
+**Status:** Not started
+**Goal:** A single Master Schedule the PM team runs the project from, integrating: resource loading, work assignments, costs, and material procurement.
+
+## Scope of the Schedule
+- All 39 work orders as schedule elements (or logical groupings of them)
+- Resource loading (crews, engineering, PM staff)
+- Work assignments (who owns each WO/phase)
+- Cost loading (from the reconciled estimate — workstream 02)
+- Material procurement milestones (need dates, lead times, PO status — reflecting the 8 cancelled underground POs)
+- External predecessors: **TRK-4911 milestones** (workstream 03)
+- Construction start: spring 2027
+
+## Build Steps
+1. [ ] Choose the tool (P6, MS Project, or Smartsheet) and the update cadence
+2. [ ] Define WBS: project → work orders → phases (engineering, procurement, construction, closeout)
+3. [ ] Load activities and durations per WO
+4. [ ] Add logic ties, including TRK-4911 external milestones as predecessors
+5. [ ] Resource-load: crews and PM/engineering assignments per activity
+6. [ ] Cost-load from the reconciled estimate (after workstream 02 lands)
+7. [ ] Add procurement milestones: material need dates, lead times, PO placement deadlines
+8. [ ] Baseline the schedule and review with the PM team
+9. [ ] Stand up the update rhythm (weekly status, monthly re-forecast)
+
+## Dependencies
+- **Workstream 02** must be far enough along to cost-load credibly.
+- **Workstream 03** provides the TRK-4911 milestone dates.
+- Work assignments may shift if the staffing actions (junior T-line engineer, substation lead) land — revisit resource loading after hires.
+
+## Open Questions
+- [ ] What scheduling tool does the PM team / DTE expect?
+- [ ] Does DTE require schedule submittals in a specific format or cadence?
