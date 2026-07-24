@@ -8,7 +8,7 @@
 
 CVR proposes one integrated process for how CVR and HWC take capital projects from design through construction closeout — engineering, estimating, procurement, and project management operating on a single cost and schedule backbone, run with the same **Capital Delivery** discipline our investor-owned utility clients apply to their own capital programs.
 
-Today those functions sit in different organizations with manual handoffs between them. The cost of those seams is real: estimates built without design quantities, purchase orders placed without engineering verification, GP surprises discovered after the money is spent, and schedules that don't drive procurement. As our IOU clients (DTE and others) move toward open-book commercial arrangements, they are effectively auditing our project controls — predictable delivery is becoming a condition of winning the work.
+Today those functions sit in different organizations with manual handoffs between them. The cost of those seams is real: estimates that draw on engineering input but lack an engineering owner to drive them, purchase orders placed without systematic engineering verification, GP surprises discovered after the money is spent, and schedules that don't drive procurement. As our IOU clients (DTE and others) move toward open-book commercial arrangements, they are effectively auditing our project controls — predictable delivery is becoming a condition of winning the work.
 
 **Decisions requested of the CEO/COO:**
 
