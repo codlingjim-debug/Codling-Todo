@@ -1,6 +1,14 @@
 # 02 — Estimate / GP Analysis Across 39 Work Orders
 
-**Status:** Not started
+**Status:** In progress — material reconciliation triage complete (Aug 5, 2026)
+
+**Aug 5 update:** Built `NBALT_Material_Surplus_Triage.xlsx` from Jason Riley's 15 CWO reconciliation
+workbooks + project rollup. Key findings: (1) the "truncated" DTE IM numbers in CUE PDFs are only
+clipped visually — full values are intact in the PDF text layer, so no DTE exports are needed;
+(2) validated CWO 73305080 end-to-end: reconciliation data matched the source exactly;
+(3) project-wide position: ~$249k surplus / return candidates (91 IMs), ~$64k shortages (53 IMs),
+~$322k required-with-no-captured-order (93 IMs — verify vs PLS; includes 81 cedar poles likely already
+on order). Next: PLS line-item export to verify the order side before physical returns.
 **Goal:** Determine where we stand based on actual material cost purchased, project where target GP will land, and identify where to adjust our approach **before construction begins next spring (2027)**.
 
 ## Key Inputs Needed
