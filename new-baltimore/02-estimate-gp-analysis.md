@@ -9,12 +9,20 @@ clipped visually — full values are intact in the PDF text layer, so no DTE exp
 (3) project-wide position: ~$249k surplus / return candidates (91 IMs), ~$64k shortages (53 IMs),
 ~$322k required-with-no-captured-order (93 IMs — verify vs PLS; includes 81 cedar poles likely already
 on order). Next: PLS line-item export to verify the order side before physical returns.
+
+**Aug 5 update #2 — PLS PO Report (as of 7/28/26) received:** 23 POs, **$953k current commitment,
+$687k invoiced, $267k outstanding**. Closes the committed-cost input for this analysis (PO-header level).
+Findings: only ONE reduction visible (-$72,274 on 25000209/M-00001) vs the 8 planned UG cancellations —
+outstanding commitment is overstated until the rest hit; **CWO 73346088 has a PO ($51.9k) but no
+reconciliation workbook** (coverage gap); PO$ vs CUE$ gap of ~$425k across recon'd CWOs is largely
+explained by DTE-furnished job stock + not-yet-ordered material + non-PLS suppliers — do not read it
+as under-procurement. Still needed: PLS line-item detail (IM, qty ordered/delivered, PO no.).
 **Goal:** Determine where we stand based on actual material cost purchased, project where target GP will land, and identify where to adjust our approach **before construction begins next spring (2027)**.
 
 ## Key Inputs Needed
 - [ ] Original estimate broken out by each of the 39 work orders (labor, material, equipment, subs, OH, markup)
-- [ ] Actual material POs issued to date, mapped to work orders
-- [ ] Committed-but-not-invoiced material costs
+- [x] Actual material POs issued to date, mapped to work orders — PLS PO Report 7/28/26 (PO-header level; line-item detail still pending)
+- [x] Committed-but-not-invoiced material costs — $267k outstanding per PLS PO Report 7/28/26
 - [ ] Target GP % from the original bid/estimate
 - [ ] List of the **8 underground POs being cancelled** — amounts and which WOs they hit
 
