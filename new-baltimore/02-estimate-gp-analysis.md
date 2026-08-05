@@ -17,6 +17,16 @@ outstanding commitment is overstated until the rest hit; **CWO 73346088 has a PO
 reconciliation workbook** (coverage gap); PO$ vs CUE$ gap of ~$425k across recon'd CWOs is largely
 explained by DTE-furnished job stock + not-yet-ordered material + non-PLS suppliers — do not read it
 as under-procurement. Still needed: PLS line-item detail (IM, qty ordered/delivered, PO no.).
+
+**Aug 5 update #3 — PLS Open Order Report (as of 7/9/26) received:** 197 open line items WITH DTE IMs —
+the line-item view for everything undelivered. Cross-referenced against the triage:
+**28 surplus items have MORE inbound** (stop-ship/cancel-before-delivery candidates; ~$80k of true
+surplus value cancellable, ~$389k of inbound deliveries touch surplus IMs and need review — biggest:
+48 pole-mount 25kVA transformers, $182k inbound, only ~2 truly surplus, verify count);
+**12 of 53 "shortages" are already covered by open orders** (don't re-buy);
+**zero "Not Yet Ordered" items on open order — and NO wood poles inbound from PLS**: the 81 cedar
+poles (~$187k) are not coming from PLS — confirm the pole supply chain immediately.
+Remaining gap: delivered-history line items (closed orders) to fully verify surplus before returns.
 **Goal:** Determine where we stand based on actual material cost purchased, project where target GP will land, and identify where to adjust our approach **before construction begins next spring (2027)**.
 
 ## Key Inputs Needed
