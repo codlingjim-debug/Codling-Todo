@@ -1,6 +1,9 @@
 # 04 — Master Schedule for PM Team
 
-**Status:** Not started
+**Status:** ELEVATED — now a commercial deliverable, not just an internal tool
+**Aug 5:** The sequencing optimization this schedule enables is the primary lever for the DTE
+$2M reduction demand (see 06). The 39 WOs were priced standalone; campaign sequencing is the
+savings pool. Build the campaign grouping + mobilization model first — it anchors the DTE workshop.
 **Goal:** A single Master Schedule the PM team runs the project from, integrating: resource loading, work assignments, costs, and material procurement.
 
 ## Scope of the Schedule

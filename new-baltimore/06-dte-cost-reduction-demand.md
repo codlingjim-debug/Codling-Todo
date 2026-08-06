@@ -23,6 +23,29 @@
 - Only **$72k** of UG PO reductions have actually hit PLS vs the ~$2.45M scope removal — the
   committed-cost picture DTE may be looking at could still show UG dollars.
 
+## PRIMARY LEVER — Sequencing Optimization (Jim, Aug 5)
+The 39 WOs were **priced as individual work orders, not sequenced** — each carries its own
+mob/demob, crew ramp, access/traffic setup, material handling, supervision, and contingency.
+Program sequencing (campaign execution by corridor/circuit) collapses that stack: fewer
+mobilizations, crew continuity productivity uplift (5–15% on labor), shared access setups,
+bulk material staging, supervision consolidation. This was planned as internal margin
+recovery; it is the only credible source of ~$2M.
+
+**Negotiating rules for this lever:**
+1. **Never a flat $2M** — reprices the program at optimized level, we carry all execution risk.
+2. **Contingent shared reduction:** commit a split of modeled savings, conditional on DTE
+   behavior the savings REQUIRE: block WO releases, outage-window alignment, scope stability,
+   timely approvals, material/pole supply commitments. Their cooperation = price of their savings.
+3. **The $/mile gap is partly structural:** competitors price programs; we priced WOs. Say so.
+4. Master schedule (workstream 04) becomes a client-facing deliverable with a dollar figure —
+   the proof point for the EPC model vs the Catalina narrative.
+5. Aug 7 letter carries the SHAPE (sequencing as primary lever, quantified proposal at
+   workshop), not the number. We control the anchor because only we can compute it.
+
+**Model needed (10am assignment):** group 39 WOs into campaigns by geography/circuit; count
+mobilizations avoided (39 → N); productivity uplift range on labor base; supervision + access
+consolidation. Requires per-WO estimate breakdown (labor split) — same missing input, doubly urgent.
+
 ## Response Strategy
 1. **Aug 7 deliverable = OH material quantities package + path-forward letter, NOT a number.**
    The material reconciliation (full IM-level quantities per CWO, source-validated) is ready to
