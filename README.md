@@ -13,6 +13,7 @@ Master index for active work. Last updated: 2026-07-23.
 | 5 | Track TRK-4911 (Burns & McDonnell design/build prerequisite) | New Baltimore | [new-baltimore/03-trk-4911-tracking.md](new-baltimore/03-trk-4911-tracking.md) | Ongoing |
 | 6 | Develop Master Schedule for PM team | New Baltimore | [new-baltimore/04-master-schedule.md](new-baltimore/04-master-schedule.md) | Not started |
 | 7 | Deliver "open book" cost breakdown to DTE | New Baltimore | [new-baltimore/05-dte-open-book.md](new-baltimore/05-dte-open-book.md) | Owed — not started |
+| 7a | **DTE $2M cost reduction demand — response due Aug 7** | New Baltimore | [new-baltimore/06-dte-cost-reduction-demand.md](new-baltimore/06-dte-cost-reduction-demand.md) | **URGENT — active** |
 | 8 | Establish integrated engineering/estimating/procurement/PM process for CVR/HWC | Process | [processes/integrated-epc-pm-process.md](processes/integrated-epc-pm-process.md) | Not started |
 
 ## Standing Notes / Reminders
