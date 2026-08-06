@@ -73,6 +73,29 @@ their metric (numerator AND miles shrink). If they accept a scope/deferral offse
 driver was BUDGET — which matches the 2027 cash-flow comments. Offering it is both a solution
 and a diagnostic. Check TRK-4911 interfaces before offering specific CWOs.
 
+## TERMINATION ECONOMICS — DTE'S SIDE (BATNA floor; planning estimates, counsel/finance to validate)
+| Category | Est. range | Basis |
+|----------|-----------|-------|
+| Completed work payable (design/procure/PM/MES/invoiced) | $2.5–3M | $687k material invoiced + program-wide preconstruction + MES; strong 41.C claim |
+| Specially manufactured goods (transformers etc.) | $180–400k | 48 units inbound ~$182k; "ordinary inventory" disputed on rest |
+| Open commitment cancellations | $50–150k | $267k verified PLS outstanding + non-PLS TBD |
+| Material custody transition / yard wind-down | $100–250k | $13,684/mo yard equiv + physical transfer |
+| Rebid + successor mob + design revalidation | $300–600k | Duplication of work already paid for |
+| Escalation from 6–12 mo delay | $400–800k | ~$13M remaining @ 3.5–5%/yr; their own $338k deferral CO proves mechanism |
+| **Hard friction subtotal** | **~$3.5–5M** | Before successor repricing risk (+$0.7–2M) |
+
+**Punchline:** terminating to avoid ~$2M plausibly costs DTE $3.5–5M+ — then they still must
+convert the same 11.5 miles, later, in a hotter market, with a second failed EPC pilot on record,
+under an active MPSC audit of this program area (rate-case discoverable).
+
+**Cautions:** (1) a budget-capped decision-maker may not run this math — scope deferral solves
+their real problem cheaply; (2) the GRIND scenario (Terms 26 suspension / slow WO releases)
+bleeds HWC without triggering termination compensation — any pause must get written duration,
+boundary, cost treatment, restart conditions; (3) claim strength requires the paper NOW:
+CWO/PO completed-work ledgers, material title/acceptance item-by-item, current UBL, notices
+within 10-day windows. **Use silently as the BATNA floor — never as a taunt. They called
+instead of sending a 10-day letter; they want a deal.**
+
 ## PRIMARY LEVER — Sequencing Optimization (Jim, Aug 5)
 The 39 WOs were **priced as individual work orders, not sequenced** — each carries its own
 mob/demob, crew ramp, access/traffic setup, material handling, supervision, and contingency.
