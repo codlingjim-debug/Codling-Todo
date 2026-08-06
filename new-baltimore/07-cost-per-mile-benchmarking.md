@@ -40,6 +40,23 @@ implies ~$1.16M/mi — below DTE's own audited floor. Density context: 930 work 
 (Supersedes the earlier modeled-cost estimate of $530–610k/mi, which excluded engineering,
 procurement, PM, fee, and non-modeled scope.)
 
+## Sensitivity Grid — why input discipline matters (added Aug 5 PM)
+An internal calc using $2.4M UG credit and 10.1 "net wire-miles" produced $1.574M/mi (outside
+range). Both inputs are wrong: confirmed UG credit is **$2,973,581.52** (→ post-UG $15,387,179),
+and 10.1 mi is a conductor-accounting artifact ((141,020 install − 87,599 removal)/5,280 —
+removal doesn't shorten the route; installed wire-feet ≠ route-feet). Proposal basis = 11.5 line-miles.
+
+| Numerator ÷ Denominator | 11.5 mi (proposal) | 10.1 mi (artifact) |
+|---|---|---|
+| $15.387M (correct post-UG) | **$1.34M/mi — INSIDE** | $1.52M/mi — inside, top end |
+| $15.789M (incl. +$402k CO) | $1.37M/mi — inside | $1.56M/mi — at ceiling |
+| $15.9M (wrong credit) | $1.38M/mi — inside | $1.57M/mi — the erroneous result |
+
+DTE audited range: $1.25–1.56M/mi. Only the double-error cell falls outside.
+**OPEN ITEM (pre-Brad):** confirm OH-only route miles — if UG deletion removed route miles from
+the 11.5, the honest denominator shrinks (e.g., 10.0 OH-only mi → $1.54M/mi, top of range).
+Lock this from design docs before quoting any $/mile externally.
+
 ## Questions That Dismantle the Claim (ask DTE in writing)
 1. What is the $/mile target, and what is in the numerator? (Engineering? Procurement? PM?
    Contingency? Restoration? Traffic control? Material — and who furnishes it?)
