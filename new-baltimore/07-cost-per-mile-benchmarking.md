@@ -2,10 +2,10 @@
 
 **Purpose:** truth-test DTE's claim that HWC's awarded price is "above industry baseline."
 **Bottom line up front:** there is no single "industry baseline" for this work — published
-figures span $30k to $6M per mile depending on what's being built and what's counted. The most
-relevant benchmark is **DTE's own audited 4.8kV conversion program expectation of ~$1.25–1.56M
-per mile** — and New Baltimore is conversion-class work (4800/8320Y). Any HWC implied $/mile
-materially below that number contradicts the "above baseline" claim using DTE's own math.
+figures span $30k to $6M per mile. The most relevant benchmark is **DTE's own audited 4.8kV
+conversion program expectation of ~$1.25–1.56M per mile** — and HWC's post-UG price (~$1.34M/mi
+on the 11.5-mile proposal basis) sits INSIDE that range. The $2M demand implies ~$1.16M/mi,
+BELOW DTE's own audited floor. DTE's new internal target, not HWC's price, is the outlier.
 
 ## Published Benchmarks
 
@@ -32,9 +32,13 @@ From reconciliation data (15 of ~24 OH CWOs): **~140,300 ft of bare conductor**.
 
 **Formula for the meeting:** (contract value post-UG-removal) ÷ (total program line-miles) = implied $/mile.
 Compare that to $1.25–1.56M (DTE's own program number) and ~$300k (construction-only rebuild comp).
-Reference points from our model (15 CWOs only, not the contract): modeled field cost $2.67M +
-CUE material $1.38M ≈ $4.05M before engineering/PM/fee → ~$530–610k per line-mile implied at
-6.6–7.6 miles — roughly **40–45% of DTE's own audited program expectation**.
+**REVISED Aug 5 PM with actual contract figures:** award **$18,360,760 ÷ 11.5 proposal
+line-miles = $1.60M/mi as awarded (incl. UG scope)**. Post-UG credits (~$15.39M): **~$1.34M/mi —
+inside DTE's own MPSC-audited 4.8kV program expectation of $1.25–1.56M/mi.** The $2M demand
+implies ~$1.16M/mi — below DTE's own audited floor. Density context: 930 work locations over
+11.5 miles (~81/mile); proposal already asserted a 15.6% hour reduction vs unit-based build.
+(Supersedes the earlier modeled-cost estimate of $530–610k/mi, which excluded engineering,
+procurement, PM, fee, and non-modeled scope.)
 
 ## Questions That Dismantle the Claim (ask DTE in writing)
 1. What is the $/mile target, and what is in the numerator? (Engineering? Procurement? PM?
@@ -48,8 +52,9 @@ CUE material $1.38M ≈ $4.05M before engineering/PM/fee → ~$530–610k per li
 ## Talking Points
 - "Industry baseline" spans two orders of magnitude in public sources; a claim of "above
   baseline" is meaningless without the comp definition. We welcome the comparison — send the math.
-- Against DTE's own audited program planning number ($1.25–1.56M/mi), our implied price is a
-  fraction, not a premium.
+- Against DTE's own audited program planning number ($1.25–1.56M/mi), our post-UG price
+  (~$1.34M/mi) sits INSIDE their range — and their $2M demand would push us BELOW their own
+  audited floor. We are not the outlier; the new target is.
 - The one legitimately cheaper comp (co-op greenfield at $30–110k/mi) isn't this scope: no
   conversion, no cutover, no EPC services, no DTE standards/restoration burden.
 - Where a real gap may exist: standalone-WO pricing vs program pricing — which is exactly what

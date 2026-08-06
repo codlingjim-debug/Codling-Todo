@@ -23,6 +23,56 @@
 - Only **$72k** of UG PO reductions have actually hit PLS vs the ~$2.45M scope removal — the
   committed-cost picture DTE may be looking at could still show UG dollars.
 
+## CONFIRMED FACTS (Aug 5 PM — contract brief + DTE Maximo workbook)
+- **Original award: $18,360,760.44** (April 2025). Proposal basis: **~11.5 line-miles, 930 work
+  locations**, 197 pole replacements + 70 concrete additions, 111 transformers.
+- **UG credits: $2,973,581.52** ($1,838,575.77 material + $1,135,005.75 construction) — larger
+  than the ~$2.45M earlier figure.
+- **$2M is ADDITIVE to UG credits** (Tascioglu confirmed) → total reduction ~$4.97M gross.
+- Pending CO package: +$532,206.84 / -$130,342.60 pole credit = **net +$401,864.24**. OPEN:
+  does withdrawing it count toward the $2M (leaving $1.598M) — ask DTE for TARGET FINAL
+  CONTRACT VALUE to kill the ambiguity mathematically.
+- **$2M = 10.9% of award ≈ the entire bid OH/risk/markup/profit layer.** A blanket concession
+  removes the commercial layer while keeping all obligations.
+- John Chang (Senior Buyer) is the only person with contract-change authority.
+- Termination: convenience right, 10-day notice (Terms 41); lost profits waived (41.B);
+  completed work + specially manufactured goods compensable (41.C). Nothing official yet.
+- Timeline: priced Apr 2025, POs Jun/Jul 2025, start shifted 2026→2027 at DTE's budget request
+  (deferral CO $337,972.48 pending). Mileage never changed; $/mile never in the proposal.
+  **DTE's past "no 2027 budget" comments suggest the real driver is BUDGET, not benchmark.**
+
+## KEY CORRECTIONS TO PRIOR ANALYSIS
+1. **Sequencing ceiling revised DOWN:** DTE's Maximo workbook shows our 15 reconciled CWOs cover
+   ~97% of program install wire — the OH program is ~20 CWOs, not 39 (39 included deleted UG +
+   ancillary). Sequencing savings ≈ **$720-790k program-wide**, not $1.4-1.5M. The $2M therefore
+   CANNOT come from sequencing alone → menu must include scope offset + VE + material.
+2. **Benchmarking with real numbers:** award $18.36M ÷ 11.5 mi = **$1.60M/mi as awarded (incl UG)**;
+   post-UG-credit ~$15.39M ÷ ~11.5 mi = **~$1.34M/mi — INSIDE DTE's own MPSC-audited 4.8kV
+   conversion program expectation of $1.25-1.56M/mi**. The $2M demand would push to ~$1.16M/mi,
+   BELOW DTE's own audited floor. (Replaces earlier "40-45%" modeled-cost estimate.)
+3. **Termination exposure math:** ChatGPT brief carries $922.9k open-commitment estimate; the
+   verified PLS PO report (7/28) shows **$266.9k outstanding** — the open-commitment component
+   of termination exposure is smaller than the brief assumes (non-PLS commitments TBD, e.g. poles).
+
+## MAXIMO WORKBOOK — OUR VALIDATION (unique to us; GPT couldn't do this)
+Program-level: Maximo install quantities (315 poles / 141,020 ft wire / 90 xfmrs) match our
+source-validated reconciliation (332 / 140,289 bare-only / 84) within ~5% — **wire within 0.5%**.
+Per-CWO gaps are explainable: our wire count excluded triplex/secondary (Maximo includes),
+73802595 is removal-dominant, 73305080/73358165 have no removals in Maximo. Maximo includes
+5 CWOs outside our recon set (4 small Viper CWOs + 73303193) and omits 73279347.
+**DTE's own inconsistency:** their earlier discrepancy discussion referenced ~157,003 additional
+ft; this workbook nets 53,421 ft — two conflicting DTE numbers; ours is the source-validated third.
+The crosswalk GPT recommends (CWO/IM/BOM/ordered/DTE-furnished/variance) is ~80% BUILT — our
+triage workbook + rollup formatted with a cover sheet = the Aug 7 material deliverable.
+
+## SCOPE-OFFSET OPTION (Jason's 2028 conversion idea) — SUPPORT, WITH ONE TEST
+Removing/deferring 2028 conversion scope (~$1.6-2M) reaches the number without repricing
+retained work — aligns with the brief's "partial scope transfer / structured VE" preferred path.
+**The tell:** if DTE's driver is really their $/mile benchmark, scope removal doesn't improve
+their metric (numerator AND miles shrink). If they accept a scope/deferral offset, the real
+driver was BUDGET — which matches the 2027 cash-flow comments. Offering it is both a solution
+and a diagnostic. Check TRK-4911 interfaces before offering specific CWOs.
+
 ## PRIMARY LEVER — Sequencing Optimization (Jim, Aug 5)
 The 39 WOs were **priced as individual work orders, not sequenced** — each carries its own
 mob/demob, crew ramp, access/traffic setup, material handling, supervision, and contingency.
