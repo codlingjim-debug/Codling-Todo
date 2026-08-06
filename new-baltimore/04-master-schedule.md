@@ -4,6 +4,16 @@
 **Aug 5:** The sequencing optimization this schedule enables is the primary lever for the DTE
 $2M reduction demand (see 06). The 39 WOs were priced standalone; campaign sequencing is the
 savings pool. Build the campaign grouping + mobilization model first — it anchors the DTE workshop.
+
+**Aug 5: v1 model built — `NBALT_Proto_Schedule_Sequencing_Model.xlsx`.** Scope derived from the
+material reconciliation (332 poles, ~140k ft conductor, 84 transformers across 15 CWOs).
+Modeled at industry-typical rates (all inputs editable/yellow): baseline 15 standalone WOs =
+264 crew-days / $2.67M modeled field cost; campaign execution (4 groupings) = 215 crew-days.
+**Savings on the 15 CWOs: $682k (2 crews) / $726k (3) / $747k (4)** — crew count mainly moves
+calendar (22 / 14 / 11 weeks from Apr 2027). **Extrapolated at 50% program share: ~$1.36–1.49M**,
+before unmodeled upside (contingency de-stack, traffic re-setups, staging). Supports the "$2M is
+achievable only with full sequencing + DTE cooperation" negotiating line. Harden per checklist
+in the workbook (HWC rates, real geography, remaining WOs, TRK-4911/outages).
 **Goal:** A single Master Schedule the PM team runs the project from, integrating: resource loading, work assignments, costs, and material procurement.
 
 ## Scope of the Schedule
