@@ -57,6 +57,25 @@ DTE audited range: $1.25–1.56M/mi. Only the double-error cell falls outside.
 the 11.5, the honest denominator shrinks (e.g., 10.0 OH-only mi → $1.54M/mi, top of range).
 Lock this from design docs before quoting any $/mile externally.
 
+## Scenario: Back Out 2028 Conversion Scope Too (added Aug 5 PM)
+Base: post-UG $15.387M / 11.5 mi. Conversion value per Jason ~$1.6–2.0M; conversion route-miles TBD from design.
+
+| Conv $ removed | Conv miles removed | Remaining $ | Remaining mi | $/mile | vs DTE range ($1.25–1.56M) |
+|---|---|---|---|---|---|
+| $1.6M | 0 | $13.79M | 11.5 | **$1.20M** | BELOW floor |
+| $1.6M | 1 | $13.79M | 10.5 | $1.31M | inside |
+| $1.6M | 2 | $13.79M | 9.5 | $1.45M | inside |
+| $2.0M | 0 | $13.39M | 11.5 | **$1.16M** | BELOW floor |
+| $2.0M | 1 | $13.39M | 10.5 | $1.27M | inside |
+| $2.0M | 2 | $13.39M | 9.5 | $1.41M | inside |
+
+**Reading:** in every case the metric stays inside — or drops below — DTE's own audited range.
+If the 2028 conversion scope carries little route mileage (cutover/transfer-heavy work), removal
+IMPROVES the $/mile metric substantially, meaning Jason's scope-offset proposal gives DTE their
+$2M AND fixes their benchmark simultaneously — the rare concession that helps both sides' stories.
+If conversion carries ~2 route-miles, the metric is roughly unchanged (~$1.41–1.45M, still inside).
+**Data needed from design: exact 2028 conversion CWO value and route miles.**
+
 ## Questions That Dismantle the Claim (ask DTE in writing)
 1. What is the $/mile target, and what is in the numerator? (Engineering? Procurement? PM?
    Contingency? Restoration? Traffic control? Material — and who furnishes it?)
