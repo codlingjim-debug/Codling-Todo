@@ -76,6 +76,33 @@ $2M AND fixes their benchmark simultaneously — the rare concession that helps 
 If conversion carries ~2 route-miles, the metric is roughly unchanged (~$1.41–1.45M, still inside).
 **Data needed from design: exact 2028 conversion CWO value and route miles.**
 
+## DESIGN DRAWINGS REVIEWED (Aug 6 — NE-24-066 R1 JACOB / NE-24-069 R2 NBALT_1)
+Three facts from the drawings, which are **DTE's own Regional Planning sheets** (drawn by DTE,
+Zein Hassan, 3/24/2025; scale stamped "NONE" — no length tables; Hayley's ~12 mi measurement
+is the route figure of record):
+1. **The scope composition is DTE's design, not ours** — conductor classes (3PH 636/336, 3PH 1/0,
+   1PH 1/0), armless construction, concrete poles in road ROW, dual-rated transformer swaps,
+   Viper reclosers — every cost driver on these sheets is DTE-specified.
+2. **TRK-4911 segments are called out on both sheets** ("RECONDUCTORED BY TRK4911 PROJECT") —
+   route miles inside the program area rebuilt by ANOTHER project. Neither side should count
+   those miles in this contract's $/mile, in either direction.
+3. **Mixed scope confirmed** — full reconductor, 1-ph laterals, cable sections, and
+   pole-replacement-only segments (per Hayley) — supporting the density/complexity argument
+   against any flat route-mile comparison.
+
+**FINAL DENOMINATOR BRACKET (post-UG $15.387M):**
+| Basis | Miles | $/mile | vs DTE $1.25–1.56M |
+|---|---|---|---|
+| Hayley measured route (all touched) | 12.0 | **$1.28M** | inside, bottom third |
+| Proposal basis (Apr 2025) — USE IN LETTER | 11.5 | **$1.34M** | inside |
+| If DTE excludes ~1.5 mi pole-only sections | 10.5 | $1.47M | inside |
+| Maximo net-wire artifact (reject) | 10.1 | $1.52M | inside, top end |
+
+**The bulletproof sentence: under every defensible mileage accounting — 10.5 to 12 route-miles —
+this program falls between $1.28M and $1.47M per mile, inside DTE's own audited range.**
+Recommended letter posture: lead with the proposal basis ($1.34M/mi), note measured route
+mileage of ~12 miles yields ~$1.28M/mi. Exclude TRK-4911 segments from any mileage discussion.
+
 ## Questions That Dismantle the Claim (ask DTE in writing)
 1. What is the $/mile target, and what is in the numerator? (Engineering? Procurement? PM?
    Contingency? Restoration? Traffic control? Material — and who furnishes it?)
