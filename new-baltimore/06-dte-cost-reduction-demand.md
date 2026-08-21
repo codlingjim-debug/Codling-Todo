@@ -104,16 +104,23 @@ mobilizations, crew continuity productivity uplift (5–15% on labor), shared ac
 bulk material staging, supervision consolidation. This was planned as internal margin
 recovery; it is the only credible source of ~$2M.
 
-**Negotiating rules for this lever:**
-1. **Never a flat $2M** — reprices the program at optimized level, we carry all execution risk.
-2. **Contingent shared reduction:** commit a split of modeled savings, conditional on DTE
-   behavior the savings REQUIRE: block WO releases, outage-window alignment, scope stability,
-   timely approvals, material/pole supply commitments. Their cooperation = price of their savings.
-3. **The $/mile gap is partly structural:** competitors price programs; we priced WOs. Say so.
-4. Master schedule (workstream 04) becomes a client-facing deliverable with a dollar figure —
-   the proof point for the EPC model vs the Catalina narrative.
-5. Aug 7 letter carries the SHAPE (sequencing as primary lever, quantified proposal at
-   workshop), not the number. We control the anchor because only we can compute it.
+**NEGOTIATING RULES — REVISED to C-suite posture (Jim, Aug 6). Supersedes the earlier
+"contingent shared reduction" framing everywhere in this file.**
+Position: we bid it, we won it, we hold a signed competitively-awarded contract. If DTE
+needs out, they have T4C — we never say that, but that is where the C-suite is.
+1. **No price concession on retained scope — none.** Not a flat $2M, not a shared-savings
+   split, not a contingent reduction. The award price is the price for the awarded scope.
+2. **Sequencing savings stay internal.** The model (05) protects OUR execution economics
+   and margin recovery. It is not on the table and never leaves the building.
+3. **The only path to a lower contract value is scope reduction at bid values** through
+   the contract change process (2028 conversion offset is the ready-made vehicle). The
+   number drops because scope drops — nothing retained gets repriced.
+4. **T4C economics stay silent.** The $3.5–5M+ friction table is the BATNA floor, never a
+   taunt. They called instead of sending a 10-day letter; they want a deal.
+5. Master schedule (workstream 04) remains OUR proof point for the EPC model vs the
+   Catalina narrative — presented as execution competence, not as a savings offer.
+6. Aug 7 deliverable: quantities package + benchmark rebuttal + signed-contract posture +
+   willingness to discuss SCOPE at a workshop. No number, no savings language.
 
 **Model needed (10am assignment):** group 39 WOs into campaigns by geography/circuit; count
 mobilizations avoided (39 → N); productivity uplift range on labor base; supervision + access
@@ -126,12 +133,14 @@ consolidation. Requires per-WO estimate breakdown (labor split) — same missing
 2. **Demand the benchmark math:** DTE's $/mile target and what's in the numerator. EPC price vs
    construction-only unit-price comps is apples-to-oranges; rural/commercial comps vary with
    access, crossings, soils, and who furnishes material.
-3. **Offer a structured cost workshop (within 2 weeks)** with named lever categories:
-   design/VE (pole class, framing, spans), DTE-furnished vs contractor-furnished material,
-   means & methods w/ HWC field input, mobilization/schedule consolidation, contingency
-   right-sizing, commercial structure.
-4. **Commercial play:** open-book **target price with shared savings** — converts the demand into
-   a joint cost attack; fits DTE's audit posture and our Capital Delivery process.
+3. **Offer a structured scope workshop (within 2 weeks)** limited to levers that change
+   SCOPE, priced at bid values via the change process: design/VE scope changes (pole class,
+   framing, spans — DTE's design decisions), DTE-furnished vs contractor-furnished material,
+   2028 conversion deferral/removal. NOT on the agenda: means/methods, sequencing,
+   contingency, fee — anything that reprices retained work.
+4. **Commercial play (REVISED per C-suite):** scope reduction at bid values ONLY. If DTE
+   needs the contract value lower, scope comes out — priced at award rates through the
+   change process. No repricing of retained work, no shared savings, no open-book target.
 5. **Catalina:** pull our own Phase 3 post-mortem facts before DTE frames the history. Tie the
    fix to the integrated process (estimating under engineering, EOR-verified procurement,
    CVR PM ↔ HWC PM pairing).
@@ -145,9 +154,13 @@ consolidation. Requires per-WO estimate breakdown (labor split) — same missing
 - [ ] Prep: Brad one-pager before Tuesday DTE meeting
 
 ## For Brad's One-Pager
-- The numbers: commitment/invoiced, $2.45M UG reduction status (only $72k hit PLS so far)
-- The ambiguity: $2M vs $4.45M — must be resolved face-to-face
-- The benchmark issue: demand the $/mile definition before conceding anything
-- The offer: workshop + open-book target price w/ shared savings
+- The numbers: commitment/invoiced, UG credit status ($2.97M credited; only $72k hit PLS so far)
+- The ambiguity: $2M vs ~$4.97M total — resolved: ADDITIVE. Demand the TARGET FINAL CONTRACT
+  VALUE in writing to kill any remaining ambiguity.
+- The benchmark rebuttal: post-UG $/mile is $1.28–1.47M under every defensible mileage
+  accounting — INSIDE DTE's own MPSC-audited $1.25–1.56M range. Their target is the outlier.
+- The posture (C-suite): signed, competitively-won contract. No concessions on retained
+  scope, no shared savings. Only path down = scope reduction at bid values (2028 conversion
+  offset ready). Sequencing savings stay internal. T4C friction ($3.5–5M+) is the silent floor.
 - The model defense: Catalina's seams are what the integrated process fixes; New Baltimore
   pilot is the proof point

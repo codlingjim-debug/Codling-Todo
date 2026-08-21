@@ -120,11 +120,13 @@ mileage of ~12 miles yields ~$1.28M/mi. Exclude TRK-4911 segments from any milea
   audited floor. We are not the outlier; the new target is.
 - The one legitimately cheaper comp (co-op greenfield at $30–110k/mi) isn't this scope: no
   conversion, no cutover, no EPC services, no DTE standards/restoration burden.
-- Where a real gap may exist: standalone-WO pricing vs program pricing — which is exactly what
-  our sequencing proposal addresses (see 06 / sequencing model). We fix that WITH them, not by
-  discounting into a benchmark nobody has defined.
-- They awarded this price. The estimate didn't change; their target did. Partnership framing:
-  bring the target and its math to the workshop and we'll engineer to it.
+- If DTE believes a gap exists, the comp definition is where the conversation starts — send
+  the math. We hold a signed, competitively awarded contract; the path to a lower contract
+  value is scope reduction at bid values through the change process, not repricing retained
+  work. (Sequencing/optimization stays internal — see 06 revised negotiating rules.)
+- They awarded this price. The estimate didn't change; their target did. Framing: bring the
+  target and its math to the workshop and we'll show where the scope — DTE's own design —
+  drives it. If the budget requires a lower number, scope comes out at bid values.
 
 ## Caveats
 - Line-mile estimates derive from conductor quantities (15 of ~24 OH CWOs) — replace with actual
