@@ -1,0 +1,54 @@
+{
+  "project": "USC SVP Engineering \u2014 30/60/90",
+  "owner": "James D. Codling, PE, MBA",
+  "start_date": "2026-07-13",
+  "milestones": {
+    "day30": "2026-08-12",
+    "day60": "2026-09-11",
+    "day90": "2026-10-11"
+  },
+  "phases": {
+    "phase-1-30day": "First 30 Days \u2014 Assess, Align, Reconnect",
+    "phase-2-60day": "Days 31\u201360 \u2014 Stabilize, Stand Up, Win",
+    "phase-3-90day": "Days 61\u201390 \u2014 Scale, Hire, Acquire"
+  },
+  "functions": [
+    "engineering-delivery",
+    "business-development",
+    "client-relationships",
+    "talent-org-design",
+    "financial-pnl",
+    "operations-tools",
+    "quality-standards",
+    "strategy-growth"
+  ],
+  "clients": [
+    "southern-company",
+    "aep",
+    "firstenergy",
+    "centerpoint",
+    "sce"
+  ],
+  "staff": [
+    "fe-lead",
+    "te-lead",
+    "de-lead",
+    "substation-lead",
+    "bd-manager",
+    "open-req-01",
+    "open-req-02"
+  ],
+  "task_frontmatter_schema": [
+    "title",
+    "phase",
+    "function",
+    "owner",
+    "status",
+    "priority",
+    "due",
+    "depends_on",
+    "clients",
+    "staff",
+    "written_commitment"
+  ]
+}

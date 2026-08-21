@@ -1,37 +1,32 @@
-# Codling Todo — Tracker
+# USC SVP Engineering — 30/60/90 Day Framework
 
-Master index for active work. Last updated: 2026-07-23.
+A file-based execution system for the first 90 days leading the CVR engineering division
+at USC / Hydaker-Wheatlake. Designed to be driven from Claude Code.
 
-## Quick Status Board
-
-| # | Item | Category | File | Status |
-|---|------|----------|------|--------|
-| 1 | Open Substation Physical Engineering Lead requisition | Staffing | [staffing/hiring.md](staffing/hiring.md) | Not started |
-| 2 | Recruit junior T-line engineer (Enrico or John Hugo) | Staffing | [staffing/hiring.md](staffing/hiring.md) | Not started |
-| 3 | Verify source of $200k easements budget | New Baltimore | [new-baltimore/01-easements.md](new-baltimore/01-easements.md) | Not started |
-| 4 | Analyze estimate/plan across 39 work orders vs. actual material cost; project target GP | New Baltimore | [new-baltimore/02-estimate-gp-analysis.md](new-baltimore/02-estimate-gp-analysis.md) | Not started |
-| 5 | Track TRK-4911 (Burns & McDonnell design/build prerequisite) | New Baltimore | [new-baltimore/03-trk-4911-tracking.md](new-baltimore/03-trk-4911-tracking.md) | Ongoing |
-| 6 | Develop Master Schedule for PM team | New Baltimore | [new-baltimore/04-master-schedule.md](new-baltimore/04-master-schedule.md) | Not started |
-| 7 | Deliver "open book" cost breakdown to DTE | New Baltimore | [new-baltimore/05-dte-open-book.md](new-baltimore/05-dte-open-book.md) | Owed — not started |
-| 7a | **DTE $2M cost reduction demand — response due Aug 7** | New Baltimore | [new-baltimore/06-dte-cost-reduction-demand.md](new-baltimore/06-dte-cost-reduction-demand.md) | **URGENT — active** |
-| 8 | Establish integrated engineering/estimating/procurement/PM process for CVR/HWC | Process | [processes/integrated-epc-pm-process.md](processes/integrated-epc-pm-process.md) | Not started |
-
-## Standing Notes / Reminders
-
-- **8 of the underground purchase orders will be cancelled** — factor into the estimate/GP analysis and procurement tracking (see [new-baltimore/02-estimate-gp-analysis.md](new-baltimore/02-estimate-gp-analysis.md)).
-- **New Baltimore construction begins next spring (2027)** — the estimate/GP analysis and any course corrections need to land before then.
-- **TRK-4911 is a schedule prerequisite** for New Baltimore — build it into all schedule assumptions where it makes sense.
-
-## Repo Layout
-
+## Quick start
+```bash
+python scaffold.py     # generate / extend the structure (safe to re-run)
+python status.py       # see where everything stands
 ```
-README.md                                  — this index / status board
-staffing/hiring.md                         — both open hiring actions
-new-baltimore/README.md                    — project overview and key facts
-new-baltimore/01-easements.md              — $200k budget verification
-new-baltimore/02-estimate-gp-analysis.md   — 39 WO estimate vs. actuals, GP projection
-new-baltimore/03-trk-4911-tracking.md      — B&M prerequisite project tracking
-new-baltimore/04-master-schedule.md        — PM team master schedule build-out
-new-baltimore/05-dte-open-book.md          — open book deliverable to DTE
-processes/integrated-epc-pm-process.md     — CVR/HWC integrated process design
-```
+Open `CLAUDE.md` first if you're Claude Code — it explains how to operate here.
+
+## How it's organized
+Tasks are indexed three ways at once — **by phase**, **by function**, and **by staff/client** —
+through frontmatter tags, so one task shows up in every relevant view without duplication.
+
+- `phase-1-30day/`, `phase-2-60day/`, `phase-3-90day/` → tasks grouped by function
+- `functions/` → master note per function (mandate, targets, risks)
+- `staff/` → per-person expectations, 1:1 logs, retention flags
+- `clients/` → per-anchor-relationship plans (engineering-services scope only)
+- `project.json` → machine-readable config
+- `status.py` → rollup dashboard
+
+## Customize before you start
+1. Set the real start date in `scaffold.py` (`START_DATE`) and re-run.
+2. Replace placeholder staff IDs in `STAFF` with real names; re-run `scaffold.py`.
+3. Fill in the `functions/*.md` diagnosis sections during week one.
+4. Flag any verbal terms as `written_commitment: true` so they get chased.
+
+## Anchor clients
+Southern Company, AEP, FirstEnergy, CenterPoint, SCE — utility **engineering services only**,
+consistent with the Schedule A carve-out. Keep activity inside that scope.
