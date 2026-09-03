@@ -109,6 +109,32 @@ matched scope and mileage. TRK-4911 miles remain excluded (07 rule stands).
   CVR for a level-of-effort assessment crediting additional purchased material — i.e. DTE
   requested the change-impact assessment. That request should arrive in writing too.
 
+## TRANSCRIPT CONFIRMATIONS (9/3 recording — see Substation-Route-Scope-Review-2026-09-03-Transcript.txt)
+- **[12:24] "4911 has to come before the conversion."** Explicit sequencing dependency on
+  Burns & McDonnell's project, stated by DTE. 4911 plan set done ~end of 2026 [03:31].
+  Our Apr 2027 start now depends on THEIR project — get this dependency into the CO/schedule
+  record so any 4911 slip is a compensable DTE-caused delay, not ours. (Ties to workstream 03.)
+- **[45:09] "The reason we were replacing poles there is because you want to go armless…
+  that was the directive."** Pole replacement scope was driven by DTE's armless directive.
+  Kills any "gold-plating" argument about our price.
+- **[49:45–50:33] DTE self-diagnosis on tape:** their planner "would have pushed back" on the
+  original design choices; "communication issues between standards and designers on the DTE
+  side… causes these issues." The cost problem originates in DTE's own design governance.
+- **[57:15–59:43] Engineering-effort compensation is OPEN.** DTE floated the VE evaluation
+  effort being validated against savings found (i.e., contingent/paid-from-savings); our side
+  countered with quoting the level of effort (man-hours) up front. DO NOT start the exercise
+  on a contingent basis — Hayley's variance exercise is priced work: get DTE's written request
+  and agreement on LOE compensation first, or clearly reserve it as a change-claim cost.
+- **[30:04–33:00] Easement/permit exposure named:** retained-pole failures mid-construction,
+  new poles set beside old ones, and 4.8→13.2 conversion adding a neutral may all trigger
+  easement revisions ("original easement was three wires"); legal to weigh in; the "Hydaker
+  can't be held responsible" clarification [32:14] covers this.
+- **[58:22] Structure agreed verbally:** scope additions tracked separately from VE/cost-
+  reduction ideas — matches Hayley's deductions/adders framing.
+- Double-circuit savings section referenced as **Marine City** [60:06].
+- Pole buy-back numbers in the recording are garbled — do not rely on any dollar figure from
+  the tape for the repurchase discussion; quantify from PO records instead.
+
 ## Actions
 
 - [ ] Written acknowledgment to DTE: received, treating as PROPOSED change; request formal
