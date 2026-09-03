@@ -72,6 +72,43 @@ Red sections with no reconductoring and blue copper-only sections expand the
 scope, both numerator AND denominator shrink — insist any future benchmark discussion uses
 matched scope and mileage. TRK-4911 miles remain excluded (07 rule stands).
 
+## MEETING OUTCOMES — 9/3 field walk + design review (per Hayley; corroborated by recording)
+
+**Deductions:**
+- CWO 73279347: review for arresters; otherwise KEEP 636 on crossarms as designed. Note a
+  **restock fee** on this one.
+- Double-circuit section: Hayley to produce map(s) of the proposed adjustment, then run the
+  3 affected CWOs as a fresh bid exercise (materials + construction cost) **at 2027 rates**,
+  with **restock fee and engineering fee added**, to see the variance vs current design.
+
+**Additions:**
+- Neutral additions and the 336 conductor upgrade are handled as **adders**.
+
+**Commercial framing to hold (matches C-suite posture):**
+- Deleted original scope credits at BID values; new/redesigned scope (double circuit,
+  neutral adds, 336) prices at CURRENT (2027) rates — it wasn't in the bid, so it isn't
+  bound by bid pricing. Restock + engineering fees ride the change either way.
+- The 2027-rate variance exercise is INTERNAL until the C-suite decides what to table —
+  it informs our change proposal; it is not a number DTE gets unprompted. We control the
+  anchor. Nothing executes until a signed CO from John Chang.
+
+**Verbal items from the walk NOT in Hayley's list — convert to written (per operating rule):**
+- Pole retention criteria said aloud: "good shape, right class and height, less than 30
+  years old — leave it." Get DTE's condition criteria + unit-rate add/delete treatment in
+  writing before accepting condition-based pole scope.
+- DTE acknowledged the purchased poles: repurpose elsewhere / buy-back discussed
+  (~$20–30k order of magnitude mentioned). Capture treatment in the CO.
+- Liability clarification raised on our side: if scope changes to retain old poles /
+  depend on TRK-4911, Hydaker cannot be held responsible for resulting failures/delays —
+  get that clarification into the CO language.
+- TRK-4911: both sides agreed a coordination meeting is needed; DTE to confirm 4911 design
+  status (print set ~end of year) and sequencing (4911 vs conversion — which goes first).
+- Armless construction admission on the record: "we designed for armless — that was a
+  directive." Useful if DTE contests the original design's cost drivers.
+- DTE acknowledged double-circuit consolidation carries labor/equipment savings and asked
+  CVR for a level-of-effort assessment crediting additional purchased material — i.e. DTE
+  requested the change-impact assessment. That request should arrive in writing too.
+
 ## Actions
 
 - [ ] Written acknowledgment to DTE: received, treating as PROPOSED change; request formal
